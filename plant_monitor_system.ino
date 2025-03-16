@@ -22,15 +22,15 @@
 #define SOIL_SENSOR_PIN 34  
 
 // **WiFi Credentials**
-const char* ssid = "Sood";        
-const char* password = "Income12"; 
+const char* ssid = "your_ssid";        
+const char* password = "your_password"; 
 
 // **Gmail SMTP Settings**
 #define SMTP_SERVER "smtp.gmail.com"
 #define SMTP_PORT 465
-#define AUTHOR_EMAIL "plant.care.esp32@gmail.com"  
-#define AUTHOR_PASSWORD "hqnc zaix acmy uvje"  
-#define RECIPIENT_EMAIL "joemamathot@gmail.com"
+#define AUTHOR_EMAIL "your_email@gmail.com"  
+#define AUTHOR_PASSWORD "app_password"  
+#define RECIPIENT_EMAIL "recipient_mail@gmail.com"
 
 // **ESP-Mail Client Setup**
 SMTPSession smtp;
